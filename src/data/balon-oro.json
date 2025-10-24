@@ -1,0 +1,432 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lestUpdated": "2025-10-23",
+    "totalGanadores": 68
+  },
+  "ganadores": [
+    {
+      "id" : 1,
+      "año" : 2025,
+      "jugador": {
+        "nombre" : "Dembélé",
+        "nombreCompleto" : "Ousmane Dembélé",
+        "fechaNacimiento" : "1997-11-15",
+        "posicion" : "Extremo Delantero",
+        "imagen": "../public/imgs/dembele-2025.webp"
+      },
+      "pais": {
+        "nombre": "Francia",
+        "codigo": "FR",
+        "bandera": "../public/imgs/bandera-francia.jpg" 
+      },
+      "club": {
+        "nombre": "Paris Saint-Germain",
+        "logo": "../public/imgs/psg-logo.png",
+        "Pais": "Francia"
+      }
+    },
+    {
+      "id" : 2,
+      "año" : 2024,
+      "jugador" : {
+        "nombre" : "Rodri",
+        "nombreCompleto" : "Rodrigo Hernádez Cascante",
+        "fechaNacimiento" : "1996-06-22",
+        "posicion" : "Mediocampista Defensivo",
+        "imagen" : "../public/imgs/rodri-2024.webp"
+      },
+      "pais" : {
+        "nombre" : "España",
+        "codigo" : "ES",
+        "bandera" : "../public/imgs/españa.png"
+      },
+      "club" : {
+        "nombre" : "Manchester City",
+        "logo" : "../public/imgs/manchesterCity-logo.png",
+        "Pais" : "Inglaterra"
+      }
+    },
+    {
+      "id" : 3,
+      "año" : 2023,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/messi-2023.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "Inter Miami",
+        "logo" : "../public/imgs/interMiami.png",
+        "Pais" : "Estados Unidos"
+      }
+    },
+    {
+      "id" : 4,
+      "año" : 2022,
+      "jugador" : {
+        "nombre" : "Karim",
+        "nombreCompleto" : "Karim Mostafa Benzema",
+        "fechaNacimiento" : "1987-12-19",
+        "posicion" : "Delantero Centro",
+        "imagen" : "../public/imgs/benzema-2022.webp"
+      },
+      "pais" : {
+        "nombre" : "Francia",
+        "codigo" : "FR",
+        "bandera" : "../public/imgs/bandera-francia.jpg"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 5,
+      "año" : 2021,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/messi-2021.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "Paris Saint-Germain",
+        "logo" : "../public/imgs/psg-logo.png",
+        "Pais" : "Francia"
+      }
+    },
+    {
+      "id" : 6,
+      "año" : 2019,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/messi-2019.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 7,
+      "año" : 2018,
+      "jugador" : {
+        "nombre" : "Luka",
+        "nombreCompleto" : "Luka Modriç",
+        "fechaNacimiento" : "1985-09-09",
+        "posicion" : "Centrocampista",
+        "imagen" : "../public/imgs/modric-2018.webp"
+      },
+      "pais" : {
+        "nombre" : "Croacia",
+        "codigo" : "HR",
+        "bandera" : "../public/imgs/croacia.png"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    
+    {
+      "id" : 8,
+      "año" : 2017,
+      "jugador" : {
+        "nombre" : "Cristiano",
+        "nombreCompleto" : "Cristiano Ronaldo dos Santos Aveiro",
+        "fechaNacimiento" : "1985-02-05",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/cristiano-ronaldo-2017.webp"
+      },
+      "pais" : {
+        "nombre" : "Portugal",
+        "codigo" : "PT",
+        "bandera" : "../public/imgs/portugal.png"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 9,
+      "año" : 2016,
+      "jugador" : {
+        "nombre" : "Cristiano",
+        "nombreCompleto" : "Cristiano Ronaldo dos Santos Aveiro",
+        "fechaNacimiento" : "1985-02-05",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/cristiano-ronaldo-2016.webp"
+      },
+      "pais" : {
+        "nombre" : "Portugal",
+        "codigo" : "PT",
+        "bandera" : "../public/imgs/portugal.png"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 10,
+      "año" : 2015,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/messi-2015.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 11,
+      "año" : 2014,
+      "jugador" : {
+        "nombre" : "Cristiano",
+        "nombreCompleto" : "Cristiano Ronaldo dos Santos Aveiro",
+        "fechaNacimiento" : "1985-02-05",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/cristiano-ronaldo-2014.webp"
+      },
+      "pais" : {
+        "nombre" : "Portugal",
+        "codigo" : "AT",
+        "bandera" : "../public/imgs/portugal.png"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 12,
+      "año" : 2013,
+      "jugador" : {
+        "nombre" : "Cristiano",
+        "nombreCompleto" : "Cristiano Ronaldo dos Santos Aveiro",
+        "fechaNacimiento" : "1985-02-05",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/cristiano-2013.webp"
+      },
+      "pais" : {
+        "nombre" : "Portugal",
+        "codigo" : "AT",
+        "bandera" : "../public/imgs/portugal.png"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 13,
+      "año" : 2012,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/messi-2012.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 14,
+      "año" : 2011,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/messi-2011.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 15,
+      "año" : 2010,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/LeoMessi-2010.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 16,
+      "año" : 2009,
+      "jugador" : {
+        "nombre" : "Lionel",
+        "nombreCompleto" : "Lionel Andrés Messi",
+        "fechaNacimiento" : "1987-06-24",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/LeoMessi-2009.webp"
+      },
+      "pais" : {
+        "nombre" : "Argentina",
+        "codigo" : "AR",
+        "bandera" : "../public/imgs/argentina.webp"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 17,
+      "año" : 2008,
+      "jugador" : {
+        "nombre" : "Cristiano",
+        "nombreCompleto" : "Cristiano Ronaldo dos Santos Aveiro",
+        "fechaNacimiento" : "1985-02-05",
+        "posicion" : "Delantero Extremo",
+        "imagen" : "../public/imgs/CristianoRonaldo-2008.webp"
+      },
+      "pais" : {
+        "nombre" : "Portugal",
+        "codigo" : "PT",
+        "bandera" : "../public/imgs/portugal.png"
+      },
+      "club" : {
+        "nombre" : "Manchester United FC",
+        "logo" : "../public/imgs/manchesterUnited.png",
+        "Pais" : "Inglaterra"
+      }
+    },
+    {
+      "id" : 18,
+      "año" : 2007,
+      "jugador" : {
+        "nombre" : "Kaká",
+        "nombreCompleto" : "Ricardo Izecson dos Santos Leite",
+        "fechaNacimiento" : "1982-04-22",
+        "posicion" : "Mediocampista Ofensivo",
+        "imagen" : "../public/imgs/kaka-2007.webp"
+      },
+      "pais" : {
+        "nombre" : "Brasil",
+        "codigo" : "BR",
+        "bandera" : "../public/imgs/brasil.png"
+      },
+      "club" : {
+        "nombre" : "AC Milan",
+        "logo" : "../public/imgs/acMilan.png",
+        "Pais" : "Italia"
+      }
+    },
+    {
+      "id" : 19,
+      "año" : 2006,
+      "jugador" : {
+        "nombre" : "Fabio",
+        "nombreCompleto" : "Fabio Cannavaro",
+        "fechaNacimiento" : "1973-09-13",
+        "posicion" : "Defensa Central",
+        "imagen" : "../public/imgs/FabioCannavaro-2006.webp"
+      },
+      "pais" : {
+        "nombre" : "Italia",
+        "codigo" : "IT",
+        "bandera" : "../public/imgs/italia.jpg"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 20,
+      "año" : 2005,
+      "jugador" : {
+        "nombre" : "Ronaldinho",
+        "nombreCompleto" : "Ronaldo de Assis Moreira",
+        "fechaNacimiento" : "1980-03-21",
+        "posicion" : "Mediocampista Ofensivo",
+        "imagen" : "../public/imgs/FabioCannavaro-2006.webp"
+      },
+      "pais" : {
+        "nombre" : "Brasil",
+        "codigo" : "BR",
+        "bandera" : "../public/imgs/brasil.png"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    }
+    
+    
+  ]
+}

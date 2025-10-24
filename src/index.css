@@ -1,0 +1,18 @@
+:root{
+  --negro: #121212;
+  --blanco: #ffffff;
+  --gris-oscuro: #3d4246;
+  --gris-claro: #CACFD2;
+  --dorado: #eaa525;
+  --azul: #c2185b;
+
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../public/fonts/Lato-Black.woff2);
+}
+@font-face {
+  font-family: Montserrrat;
+  src: url(../public/fonts/Montserrat-Italic-VariableFont_wght.woff2);
+}
