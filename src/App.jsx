@@ -13,7 +13,7 @@ function App() {
       </div>
 
       <div className='div-title'>
-        <h1 className='title'>BALÓN DE ORO</h1>
+        <h1 className='title'>BALLON D' OR</h1>
       </div>
 
       <div className="div-search">
