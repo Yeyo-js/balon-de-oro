@@ -1,5 +1,6 @@
 import { FaSearch } from "react-icons/fa";
 import './App.css'
+import { GanadoresBalonDeOro } from "./components/templates/ganadoresBalonDeOro";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <input type="text" className="inp"/>
       </div>
     </header>
+    <GanadoresBalonDeOro />
     </>
   )
 }

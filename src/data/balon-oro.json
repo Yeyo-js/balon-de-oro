@@ -413,7 +413,7 @@
         "nombreCompleto" : "Ronaldo de Assis Moreira",
         "fechaNacimiento" : "1980-03-21",
         "posicion" : "Mediocampista Ofensivo",
-        "imagen" : "../public/imgs/FabioCannavaro-2006.webp"
+        "imagen" : "../public/imgs/Ronaldinho-2005.webp"
       },
       "pais" : {
         "nombre" : "Brasil",
@@ -425,8 +425,218 @@
         "logo" : "../public/imgs/barcelona-logo.png",
         "Pais" : "España"
       }
+    },
+    {
+      "id" : 21,
+      "año" : 2004,
+      "jugador" : {
+        "nombre" : "Andriy",
+        "nombreCompleto" : "Andriy Mykolayovych Shevchenko",
+        "fechaNacimiento" : "1976-09-29",
+        "posicion" : "Delantero Centro",
+        "imagen" : "../public/imgs/AndriyShevchenko-2004.webp"
+      },
+      "pais" : {
+        "nombre" : "Ucrania",
+        "codigo" : "UA",
+        "bandera" : "../public/imgs/ucrania.png"
+      },
+      "club" : {
+        "nombre" : "AC Milan",
+        "logo" : "../public/imgs/acMilan.png",
+        "Pais" : "Italia"
+      }
+    },
+    {
+      "id" : 22,
+      "año" : 2003,
+      "jugador" : {
+        "nombre" : "Pavel",
+        "nombreCompleto" : "Pavel Nedvêd",
+        "fechaNacimiento" : "1972-08-30",
+        "posicion" : "Centrocampista Ofensivo",
+        "imagen" : "../public/imgs/PavelNedvêd-2003.webp"
+      },
+      "pais" : {
+        "nombre" : "República Checa",
+        "codigo" : "CZ",
+        "bandera" : "../public/imgs/republicaCheca.png"
+      },
+      "club" : {
+        "nombre" : "Juventus",
+        "logo" : "../public/imgs/juventus.png",
+        "Pais" : "Italia"
+      }
+    },
+    {
+      "id" : 23,
+      "año" : 2002,
+      "jugador" : {
+        "nombre" : "Ronaldo",
+        "nombreCompleto" : "Ronaldo Luis Nazário de Lima",
+        "fechaNacimiento" : "1976-09-18",
+        "posicion" : "Delantero Centro",
+        "imagen" : "../public/imgs/Ronaldo-2002.webp"
+      },
+      "pais" : {
+        "nombre" : "Brasil",
+        "codigo" : "BR",
+        "bandera" : "../public/imgs/brasil.png"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 24,
+      "año" : 2001,
+      "jugador" : {
+        "nombre" : "Michael Owen",
+        "nombreCompleto" : "Michael James Owen",
+        "fechaNacimiento" : "1979-12-14",
+        "posicion" : "Delantero Centro",
+        "imagen" : "../public/imgs/MichaelOwen-2001.webp"
+      },
+      "pais" : {
+        "nombre" : "Inglaterra",
+        "codigo" : "GB",
+        "bandera" : "../public/imgs/inglaterra.svg"
+      },
+      "club" : {
+        "nombre" : "Liverpool FC",
+        "logo" : "../public/imgs/liverpool.png",
+        "Pais" : "Inglaterra"
+      }
+    },
+    {
+      "id" : 25,
+      "año" : 2000,
+      "jugador" : {
+        "nombre" : "Luis Figo",
+        "nombreCompleto" : "Luis Filipe Madeira Caeiro Figo",
+        "fechaNacimiento" : "1972-11-04",
+        "posicion" : "Extremo Derecho",
+        "imagen" : "../public/imgs/LuisFigo-2000.webp"
+      },
+      "pais" : {
+        "nombre" : "Portugal",
+        "codigo" : "PT",
+        "bandera" : "../public/imgs/portugal.png"
+      },
+      "club" : {
+        "nombre" : "Real Madrid",
+        "logo" : "../public/imgs/realMadrid-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 26,
+      "año" : 1999,
+      "jugador" : {
+        "nombre" : "Rivaldo",
+        "nombreCompleto" : "Rivaldo Vitor Borba Ferreira",
+        "fechaNacimiento" : "1972-04-19",
+        "posicion" : "Mediocampista Ofensivo",
+        "imagen" : "../public/imgs/Rivaldo-1999.webp"
+      },
+      "pais" : {
+        "nombre" : "Brasil",
+        "codigo" : "BR",
+        "bandera" : "../public/imgs/brasil.png"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id" : 27,
+      "año" : 1998,
+      "jugador" : {
+        "nombre" : "Zinedine Zidane",
+        "nombreCompleto" : "Zinedine Yazid Zidane",
+        "fechaNacimiento" : "1972-06-23",
+        "posicion" : "Mediocampista Ofensivo",
+        "imagen" : "../public/imgs/ZinedineZidane-1998.webp"
+      },
+      "pais" : {
+        "nombre" : "Francia",
+        "codigo" : "FR",
+        "bandera" : "../public/imgs/bandera-francia.jpg"
+      },
+      "club" : {
+        "nombre" : "Juventus",
+        "logo" : "../public/imgs/juventus.png",
+        "Pais" : "Italia"
+      }
+    },
+    {
+      "id" : 28,
+      "año" : 1997,
+      "jugador" : {
+        "nombre" : "Ronaldo",
+        "nombreCompleto" : "Ronaldo Luis Nazário de Lima",
+        "fechaNacimiento" : "1976-09-18",
+        "posicion" : "Delantero Centro",
+        "imagen" : "../public/imgs/Ronaldo-1997.webp"
+      },
+      "pais" : {
+        "nombre" : "Brasil",
+        "codigo" : "BR",
+        "bandera" : "../public/imgs/brasil.png"
+      },
+      "club" : {
+        "nombre" : "Inter de Milán",
+        "logo" : "../public/imgs/interMilan.png",
+        "Pais" : "Italia"
+      }
+    },
+    {
+      "id" : 29,
+      "año" : 1996,
+      "jugador" : {
+        "nombre" : "Matthias",
+        "nombreCompleto" : "Matthias Sammer",
+        "fechaNacimiento" : "1967-09-05",
+        "posicion" : "Defensa Libero",
+        "imagen" : "../public/imgs/MatthiasSammer-1996.webp"
+      },
+      "pais" : {
+        "nombre" : "Alemania",
+        "codigo" : "DE",
+        "bandera" : "../public/imgs/alemania.png"
+      },
+      "club" : {
+        "nombre" : "Borussia Dortmund",
+        "logo" : "../public/imgs/borussia.png",
+        "Pais" : "Alemania"
+      }
+    },
+    {
+      "id" : 30,
+      "año" : 1995,
+      "jugador" : {
+        "nombre" : "George Weah",
+        "nombreCompleto" : "George Tawlon Manneh Oppong Ousman Weah",
+        "fechaNacimiento" : "1966-10-01",
+        "posicion" : "Delantero Centro",
+        "imagen" : "../public/imgs/GeorgeWeah-1995.webp"
+      },
+      "pais" : {
+        "nombre" : "Liberia",
+        "codigo" : "LR",
+        "bandera" : "../public/imgs/liberia.svg"
+      },
+      "club" : {
+        "nombre" : "AC Milan",
+        "logo" : "../public/imgs/acMilan.png",
+        "Pais" : "Italia"
+      }
     }
-    
+
     
   ]
 }
