@@ -635,7 +635,158 @@
         "logo" : "../public/imgs/acMilan.png",
         "Pais" : "Italia"
       }
-    }
+    },
+
+{
+  "id": 31,
+  "año": 1994,
+  "jugador": {
+    "nombre": "Hristo",
+    "nombreCompleto": "Hristo Stoichkov",
+    "fechaNacimiento": "1966-02-08",
+    "posicion": "Delantero",
+    "imagen": "../public/imgs/hristoStoichkov-1994.webp"
+  },
+  "pais": {
+    "nombre": "Bulgaria",
+    "codigo": "BG",
+    "bandera": "../public/imgs/bulgaria.svg"
+  },
+  "club": {
+    "nombre": "FC Barcelona",
+    "logo": "../public/imgs/fcBarcelona.png",
+    "pais": "España"
+  }
+},
+      {
+  "id": 32,
+  "año": 1993,
+  "jugador": {
+    "nombre": "Roberto",
+    "nombreCompleto": "Roberto Baggio",
+    "fechaNacimiento": "1967-02-18",
+    "posicion": "Delantero",
+    "imagen": "../public/imgs/robertoBaggio-1993.webp"
+  },
+  "pais": {
+    "nombre": "Italia",
+    "codigo": "IT",
+    "bandera": "../public/imgs/italia.svg"
+  },
+  "club": {
+    "nombre": "Juventus",
+    "logo": "../public/imgs/juventus.png",
+    "pais": "Italia"
+  }
+},
+{
+  "id": 33,
+  "año": 1992,
+  "jugador": {
+    "nombre": "Marco",
+    "nombreCompleto": "Marcel van Basten",
+    "fechaNacimiento": "1964-10-31",
+    "posicion": "Delantero",
+    "imagen": "../public/imgs/marcoVanBasten-1992.webp"
+  },
+  "pais": {
+    "nombre": "Países Bajos",
+    "codigo": "NL",
+    "bandera": "../public/imgs/paisesBajos.png"
+  },
+  "club": {
+    "nombre": "AC Milan",
+    "logo": "../public/imgs/acMilan.png",
+    "pais": "Italia"
+  }
+},
+{
+  "id": 34,
+  "año": 1991,
+  "jugador": {
+    "nombre": "Jean-Pierre",
+    "nombreCompleto": "Jean-Pierre Papin",
+    "fechaNacimiento": "1963-11-05",
+    "posicion": "Delantero",
+    "imagen": "../public/imgs/jean-pierrePapin-1991.webp"
+  },
+  "pais": {
+    "nombre": "Francia",
+    "codigo": "FR",
+    "bandera": "../public/imgs/francia.png"
+  },
+  "club": {
+    "nombre": "Olympique de Marseille",
+    "logo": "../public/imgs/olympique-marseille-logo.png",
+    "pais": "Francia"
+  }
+},
+{
+  "id": 35,
+  "año": 1990,
+  "jugador": {
+    "nombre": "Marco",
+    "nombreCompleto": "Marcel van Basten",
+    "fechaNacimiento": "1964-10-31",
+    "posicion": "Delantero",
+    "imagen": "../public/imgs/Marco van Basten-1990.webp"
+  },
+  "pais": {
+    "nombre": "Países Bajos",
+    "codigo": "NL",
+    "bandera": "../public/imgs/paisesBajos.png"
+  },
+  "club": {
+    "nombre": "AC Milan",
+    "logo": "../public/imgs/acMilan.png",
+    "pais": "Italia"
+  }
+},
+{
+  "id": 36,
+  "año": 1989,
+  "jugador": {
+    "nombre": "Alfredo",
+    "nombreCompleto": "Alfredo Di Stéfano",
+    "fechaNacimiento": "1926-08-04",
+    "posicion": "Delantero",
+    "imagen": "../public/imgs/Alfredo Di Stefano-1989.webp"
+  },
+  "pais": {
+    "nombre": "Buenos Aires",
+    "codigo": "AR",
+    "bandera": "../public/imgs/bandera buenos aires.png"
+  },
+  "club": {
+    "nombre": "Real Madrid",
+    "logo": "../public/imgs/Real Madrid-logo.png",
+    "pais": "España"
+  }
+},
+
+{
+  "id": 37,
+  "año": 1988,
+  "jugador": {
+    "nombre": "Marco ",
+    "nombreCompleto": "Marcel van Basten",
+    "fechaNacimiento": "1964-10-31",
+    "posicion": "Delantero",
+    "imagen": "../public/imgs/Marco van Basten-1988.webp"
+  },
+  "pais": {
+    "nombre": "Países Bajos",
+    "codigo": "NL",
+    "bandera": "../public/imgs/bandera-países-bajos.png"
+  },
+  "club": {
+    "nombre": "AC Milan",
+    "logo": "../public/imgs/acMilan.png",
+    "pais": "Italia"
+  }
+}
+
+    
 
     
   ]
