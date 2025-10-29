@@ -635,6 +635,616 @@
         "logo" : "../public/imgs/acMilan.png",
         "Pais" : "Italia"
       }
+    },
+    {
+      "id" : 31,
+      "año" : 1994,
+      "jugador" : {
+        "nombre" : "Hristo Stoichov",
+        "nombreCompleto" : "Hristo Stoichkov",
+        "fechaNacimiento" : "1966-02-08",
+        "posicion" : "Delantero/Extremo izquierdo",
+        "imagen" : "../public/imgs/Hristo Stoichkov - 1994.webp"
+      },
+      "pais" : {
+        "nombre" : "Bulgaria",
+        "codigo" : "BG",
+        "bandera" : "../public/imgs/bandera-bulgaria.png"
+      },
+      "club" : {
+        "nombre" : "FC Barcelona",
+        "logo" : "../public/imgs/barcelona-logo.png",
+        "Pais" : "España"
+      }
+    },
+    {
+      "id": 32,
+      "año": 1993,
+      "jugador": {
+        "nombre": "Roberto Baggio",
+        "nombreCompleto": "Roberto Baggio",
+        "fechaNacimiento": "1967-02-18",
+        "posicion": "Delantero/Mediocampista Ofensivo",
+        "imagen": "../public/imgs/Roberto Baggio --1993.webp"
+      },
+      "pais": {
+        "nombre": "Italia",
+        "codigo": "IT",
+        "bandera": "../public/imgs/italia.jpg"
+      },
+      "club": {
+        "nombre": "Juventus ",
+        "logo": "../public/imgs/juventus.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 33,
+      "año": 1992,
+      "jugador": {
+        "nombre": "Marco van Basten",
+        "nombreCompleto": "Marco Johan van Basten",
+        "fechaNacimiento": "1964-10-31",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Marco Van Basten-1988.webp "
+      },
+      "pais": {
+        "nombre": " Países Bajos ",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      } 
+      
+    },
+    {
+      "id": 34,
+      "año": 1991,
+      "jugador": {
+        "nombre": " Jean-Pierre Papin ",
+        "nombreCompleto": " Jean-Pierre Papin",
+        "fechaNacimiento": "1963-11-05",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Jean-Pierre Papin - 1991.webp "
+      },
+      "pais": {
+        "nombre": "Francia",
+        "codigo": "FR",
+        "bandera": "../public/imgs/bandera-francia.jpg"
+      },
+      "club": {
+        "nombre": " Olympique de Marseille ",
+        "logo": "../public/imgs/LOGO-olympique-de-marseille.png ",
+        "Pais": "Francia"
+      }
+    },
+    {
+      "id": 35,
+      "año": 1990,
+      "jugador": {
+        "nombre": "Marco van Basten",
+        "nombreCompleto": "Marco Johan van Basten",
+        "fechaNacimiento": "1964-10-31",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Marco Van Basten-1988.webp "
+      },
+      "pais": {
+        "nombre": "Países Bajos",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 36,
+      "año": 1989,
+      "jugador": {
+        "nombre": "Marco van Basten",
+        "nombreCompleto": "Marco Johan van Basten",
+        "fechaNacimiento": "1964-10-31",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Marco Van Basten-1988.webp "
+      },
+      "pais": {
+        "nombre": "Países Bajos",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 37,
+      "año": 1988,
+      "jugador": {
+        "nombre": "Marco van Basten",
+        "nombreCompleto": "Marco Johan van Basten",
+        "fechaNacimiento": "1964-10-31",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Marco Van Basten-1988.webp "
+      },
+      "pais": {
+        "nombre": "Países Bajos",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 38,
+      "año": 1987,
+      "jugador": {
+        "nombre": "Ruud Gullit",
+        "nombreCompleto": "Ruud Gullit",
+        "fechaNacimiento": "1962-09-01",
+        "posicion": "Centro Campista/Delantero ",
+        "imagen": "../public/imgs/Ruud Gullit-1987.webp "
+      },
+      "pais": {
+        "nombre": "Países Bajos",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 39,
+      "año": 1986,
+      "jugador": {
+        "nombre": "Igor Belánov",
+        "nombreCompleto": "Igor Ivanovich Belánov",
+        "fechaNacimiento": "1960-05-25",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Igor Belánov-1986.webp "
+      },
+      "pais": {
+        "nombre": "Unión Soviética",
+        "codigo": "SY",
+        "bandera": "../public/imgs/ "
+      },
+      "club": {
+        "nombre": "Dynamo Kyiv",
+        "logo": "../public/imgs/ ",
+        "Pais": "Ucrania"
+      }
+    },
+    {
+      "id": 40,
+      "año": 1985,
+      "jugador": {
+        "nombre": "Michel Platini",
+        "nombreCompleto": "Michel François Platini",
+        "fechaNacimiento": "1955-06-21",
+        "posicion": "Centrocampista / Mediocampista ofensivo",
+        "imagen": "../public/imgs/Michel Platini-1985.webp"
+      },
+      "pais": {
+        "nombre": "Francia",
+        "codigo": "FR",
+        "bandera": "../public/imgs/bandera-francia.jpg"
+      },
+      "club": {
+        "nombre": "Juventus",
+        "logo": "../public/imgs/juventus.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 41,
+      "año": 1984,
+      "jugador": {
+        "nombre": "Michel Platini",
+        "nombreCompleto": "Michel François Platini",
+        "fechaNacimiento": "1955-06-21",
+        "posicion": "Centrocampista / Mediocampista ofensivo",
+        "imagen": "../public/imgs/Michel Platini-1984.webp"
+      },
+      "pais": {
+        "nombre": "Francia",
+        "codigo": "FR",
+        "bandera": "../public/imgs/bandera-francia.jpg"
+      },
+      "club": {
+        "nombre": "Juventus",
+        "logo": "../public/imgs/juventus.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 42,
+      "año": 1983,
+      "jugador": {
+        "nombre": "Michel Platini",
+        "nombreCompleto": "Michel François Platini",
+        "fechaNacimiento": "1955-06-21",
+        "posicion": "Centrocampista / Mediocampista ofensivo",
+        "imagen": "../public/imgs/Michel Platini-1983.webp"
+      },
+      "pais": {
+        "nombre": "Francia",
+        "codigo": "FR",
+        "bandera": "../public/imgs/bandera-francia.jpg"
+      },
+      "club": {
+        "nombre": "Juventus",
+        "logo": "../public/imgs/juventus.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 43,
+      "año": 1982,
+      "jugador": {
+        "nombre": "Paolo Rossi",
+        "nombreCompleto": "Paolo Rossi",
+        "fechaNacimiento": "1956-09-23",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Paolo Rossi-1982.webp "
+      },
+      "pais": {
+        "nombre": "Italia",
+        "codigo": "IT",
+        "bandera": "../public/imgs/italia.jpg"
+      },
+      "club": {
+        "nombre": "Juventus",
+        "logo": "../public/imgs/juventus.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 44,
+      "año": 1981,
+      "jugador": {
+        "nombre": "Karl-Heinz Rummenigge",
+        "nombreCompleto": "Karl-Heinz Rummenigge",
+        "fechaNacimiento": "1955-09-25",
+        "posicion": "Delantero/Extremo",
+        "imagen": "../public/imgs/Karl-Heinz Rummenigge-1981.webp "
+      },
+      "pais": {
+        "nombre": "Alemania Occidental",
+        "codigo": "DE",
+        "bandera": "../public/imgs/Bnadera-alemania occidental.png "
+      },
+      "club": {
+        "nombre": "Bayern Múnich",
+        "logo": "../public/imgs/LOGO-bayern munich.png",
+        "Pais": " Alemania Occidental "
+      }
+    },
+    {
+      "id": 45,
+      "año": 1980,
+      "jugador": {
+        "nombre": "Karl-Heinz Rummenigge",
+        "nombreCompleto": "Karl-Heinz Rummenigge",
+        "fechaNacimiento": "1955-09-25",
+        "posicion": "Delantero/Extremo",
+        "imagen": "../public/imgs/Karl-Heinz Rummenigge-1980.webp "
+      },
+      "pais": {
+        "nombre": "Alemania Occidental",
+        "codigo": "DE",
+        "bandera": "../public/imgs/Bnadera-alemania occidental.png"
+      },
+      "club": {
+        "nombre": "Bayern Múnich",
+        "logo": "../public/imgs/LOGO-bayern munich.png",
+        "Pais": " Alemania Occidental "
+      }
+    },
+    {
+      "id": 46,
+      "año": 1979,
+      "jugador": {
+        "nombre": "Kevin Keegan",
+        "nombreCompleto": "Kevin Keegan",
+        "fechaNacimiento": "1951-02-14",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Kevin Keegan-1979.webp "
+      },
+      "pais": {
+        "nombre": "Inglaterra",
+        "codigo": "ENG",
+        "bandera": "../public/imgs/inglaterra.svg"
+      },
+      "club": {
+        "nombre": "Hamburger SV",
+        "logo": "../public/imgs/LOGO-Hamburger SV.png",
+        "Pais": "Alemania"
+      }
+    },
+    {
+      "id": 47,
+      "año": 1978,
+      "jugador": {
+        "nombre": "Kevin Keegan",
+        "nombreCompleto": "Kevin Keegan",
+        "fechaNacimiento": "1951-02-14",
+        "posicion": "Delantero",
+        "imagen": "../public/imgs/Kevin Keegan-1978.webp"
+      },
+      "pais": {
+        "nombre": "Inglaterra",
+        "codigo": "ENG",
+        "bandera": "../public/imgs/inglaterra.svg"
+      },
+      "club": {
+        "nombre": "Hamburger SV",
+        "logo": "../public/imgs/LOGO-Hamburger SV.png",
+        "Pais": "Alemania"
+      }
+    },
+    {
+      "id": 48,
+      "año": 1977,
+      "jugador": {
+        "nombre": "Allan Simonsen",
+        "nombreCompleto": "Allan Simonsen",
+        "fechaNacimiento": "1952-12-15",
+        "posicion": "Delantero/Extremo",
+        "imagen": "../public/imgs/Allan Simonsen-1977.webp "
+      },
+      "pais": {
+        "nombre": "Dinamarca",
+        "codigo": "DK",
+        "bandera": "../public/imgs/BANDERA-dinamarca.png "
+      },
+      "club": {
+        "nombre": "Borussia Mönchengladbach",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Alemania"
+      }
+    },
+    {
+      "id": 49,
+      "año": 1976,
+      "jugador": {
+        "nombre": "Franz Beckenbauer",
+        "nombreCompleto": "Franz Anton Beckenbauer",
+        "fechaNacimiento": "1945-09-11",
+        "posicion": "Defensa / Líbero",
+        "imagen": "../public/imgs/Franz Beckenbauer-1976.webp"
+      },
+      "pais": {
+        "nombre": "Alemania Occidental",
+        "codigo": "DE",
+        "bandera": "../public/imgs/Bnadera-alemania occidental.png "
+      },
+      "club": {
+        "nombre": "Bayern Múnich",
+        "logo": "../public/imgs/LOGO-bayern munich.png ",
+        "Pais": " Alemania Occidental "
+      }
+    },
+    {
+      "id": 50,
+      "año": 1975,
+      "jugador": {
+        "nombre": " Oleg Blokhin ",
+        "nombreCompleto": " Oleg Vladímirovich Blokhin ",
+        "fechaNacimiento": "1952-11-05",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Oleg Blokhin-1975.webp "
+      },
+      "pais": {
+        "nombre": " Unión Soviética",
+        "codigo": "RU",
+        "bandera": "../public/imgs/Bnadera-Unión Soviética.png"
+      },
+      "club": {
+        "nombre": " Dynamo Kyiv ",
+        "logo": "../public/imgs/LOGO-Dynamo Kyiv.png ",
+        "Pais": "Ucrania"
+      }
+    },
+    {
+      "id": 51,
+      "año": 1974,
+      "jugador": {
+        "nombre": " Johan Cruyff ",
+        "nombreCompleto": " Hendrik Johannes Cruijff ",
+        "fechaNacimiento": "1947-05-25",
+        "posicion": "Delantero / Mediocampista ofensivo ",
+        "imagen": "../public/imgs/Johan Cruyff-1974.webp"
+      },
+      "pais": {
+        "nombre": "Paises Bajos",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg "
+      },
+      "club": {
+        "nombre": " FC Barcelona ",
+        "logo": "../public/imgs/barcelona-logo.png",
+        "Pais": "España"
+      }
+    },
+    {
+      "id": 52,
+      "año": 1973,
+      "jugador": {
+        "nombre": " Johan Cruyff ",
+        "nombreCompleto": " Hendrik Johannes Cruijff ",
+        "fechaNacimiento": "1947-05-25",
+        "posicion": "Delantero / Mediocampista ofensivo ",
+        "imagen": "../public/imgs/Johan Cruyff-1973.webp"
+      },
+      "pais": {
+        "nombre": "Paises Bajos",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg "
+      },
+      "club": {
+        "nombre": " FC Barcelona ",
+        "logo": "../public/imgs/barcelona-logo.png",
+        "Pais": "España"
+      }
+    },
+    {
+      "id": 53,
+      "año": 1972,
+      "jugador": {
+        "nombre": " Franz Beckenbauer ",
+        "nombreCompleto": " Franz Anton Beckenbauer ",
+        "fechaNacimiento": "1945-09-11",
+        "posicion": "Delantero/libero ",
+        "imagen": "../public/imgs/Franz Beckenbauer-1972.webp "
+      },
+      "pais": {
+        "nombre": " Alemania Occidental ",
+        "codigo": "DE",
+        "bandera": "../public/imgs/Bnadera-alemania occidental.png"
+      },
+      "club": {
+        "nombre": " Bayern Múnich ",
+        "logo": "../public/imgs/LOGO-bayern munich.png",
+        "Pais": " Alemania Occidental "
+      }
+    },
+    {
+      "id": 54,
+      "año": 1971,
+      "jugador": {
+        "nombre": " Johan Cruyff ",
+        "nombreCompleto": " Hendrik Johannes Cruijff ",
+        "fechaNacimiento": "1947-04-25",
+        "posicion": " Delantero / Mediocampista ofensivo ",
+        "imagen": "../public/imgs/Johan Cruyff-1971.webp"
+      },
+      "pais": {
+        "nombre": " Países Bajos ",
+        "codigo": "NL",
+        "bandera": "../public/imgs/Bandera-paisesBajos.jpg"
+      },
+      "club": {
+        "nombre": " Ajax Ámsterdam ",
+        "logo": "../public/imgs/LOGO-Ajax Ámsterdam.png ",
+        "Pais": " Países Bajos "
+      }
+    },
+    {
+      "id": 55,
+      "año": 1970,
+      "jugador": {
+        "nombre": " Gerd Müller ",
+        "nombreCompleto": " Gerd Müller ",
+        "fechaNacimiento": "1945-11-03",
+        "posicion": "Delantero ",
+        "imagen": "../public/imgs/Gerd Müller-1970.webp "
+      },
+      "pais": {
+        "nombre": " Alemania Occidental ",
+        "codigo": "DE",
+        "bandera": "../public/imgs/Bnadera-alemania occidental.png "
+      },
+      "club": {
+        "nombre": " Bayern Múnich ",
+        "logo": "../public/imgs/LOGO-bayern munich.png ",
+        "Pais": " Alemania Occidental "
+      }
+    },
+    {
+      "id":56,
+      "año": 1969,
+      "jugador": {
+        "nombre": " Gianni Rivera ",
+        "nombreCompleto": " Giovanni Rivera ",
+        "fechaNacimiento": "1943-08-118",
+        "posicion": " Mediocampista ofensivo",
+        "imagen": "../public/imgs/Gianni Rivera-1969.webp "
+      },
+      "pais": {
+        "nombre": " Italia ",
+        "codigo": " 🇮🇹 ",
+        "bandera": "../public/imgs/italia.jpg"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 57,
+      "año": 1968,
+      "jugador": {
+        "nombre": " George Best ",
+        "nombreCompleto": " George Best ",
+        "fechaNacimiento": "1946-05-22",
+        "posicion": "Delantero/Extremo ",
+        "imagen": "../public/imgs/George Best-1968.webp "
+      },
+      "pais": {
+        "nombre": " Irlanda del Norte ",
+        "codigo": "GB",
+        "bandera": "../public/imgs/BANDERA-irlanda del norte.png"
+      },
+      "club": {
+        "nombre": " Manchester United ",
+        "logo": "../public/imgs/manchesterCity-logo.png",
+        "Pais": "Inglaterra"
+      }
+    },
+    {
+      "id": 58,
+      "año": 1967,
+      "jugador": {
+        "nombre": " Flórián Albert",
+        "nombreCompleto": " Flórián Albert ",
+        "fechaNacimiento": "1937-10-11",
+        "posicion": "Delantero/Extremo izquierdo",
+        "imagen": "../public/imgs/florián Albert-1967.webp"
+      },
+      "pais": {
+        "nombre": "Bulgaria",
+        "codigo": "BG",
+        "bandera": "../public/imgs/bandera-bulgaria.png"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 59,
+      "año": 1966,
+      "jugador": {
+        "nombre": " Bobby Charlton ",
+        "nombreCompleto": " Bobby Charlton ",
+        "fechaNacimiento": "1937-10-11",
+        "posicion": "Delantero/Extremo izquierdo",
+        "imagen": "../public/imgs/Hristo Stoichkov - 1994.webp"
+      },
+      "pais": {
+        "nombre": "Bulgaria",
+        "codigo": "BG",
+        "bandera": "../public/imgs/bandera-bulgaria.png"
+      },
+      "club": {
+        "nombre": "AC Milan",
+        "logo": "../public/imgs/acMilan.png",
+        "Pais": "Italia"
+      }
     }
   ]
 }
