@@ -35,7 +35,7 @@ function Footer() {
                 </ul>
             </div>
                 <p className="footer__copy">
-                    &copy;  2025 Balón de Oro. Desarrollado por Juan, León y Daya. Todos los derechos reservados.
+                    &copy;  2025 Balón de Oro. Desarrollado por deyvi Acosta , Yerson Fustamante  y Shirley Cruzado . Todos los derechos reservados.
                 </p>
         </footer>
     )
