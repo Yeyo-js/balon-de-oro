@@ -1,7 +1,8 @@
 import { FaSearch } from "react-icons/fa";
 import './App.css'
 import { GanadoresBalonDeOro } from "./components/templates/ganadoresBalonDeOro";
-import { Footer } from "./components/components/footer";
+import { Footer } from "./components/organisms/footer";
+
 
 function App() {
 

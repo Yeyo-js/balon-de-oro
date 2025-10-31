@@ -50,8 +50,10 @@ body{
 
 .icon{
   color: var(--dorado);
-  margin-right: 5px;
-
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 0.8rem;
+  position: absolute;
 }
 
 .inp{
@@ -61,10 +63,157 @@ body{
   background: none;
   border-radius: 20px;
   color: var(--gris-claro);
-  padding-left: 15px;
+  padding-left: 25px;
   padding-right: 15px;
 }
 
 .inp:focus{
   outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .header{
+    padding: 0.5rem;
+  }
+
+  .img{
+    height: 6rem;
+  }
+
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .inp{
+    width: 7rem;
+  }
+}
+
+/* Tablets pequeñas (600px - 768px) */
+@media screen and (max-width: 768px) {
+  .header{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .div-img{
+    order: 1;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .img{
+    height: 5rem;
+  }
+
+  .div-title{
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .title{
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .div-search{
+    order: 3;
+    padding-right: 0;
+  }
+
+  .inp{
+    width: 10rem;
+    height: 2.2rem;
+  }
+
+  .icon{
+    margin-top: 7px;
+  }
+}
+
+/* Móviles grandes (480px - 600px) */
+@media screen and (max-width: 600px) {
+  .header{
+    gap: 0.8rem;
+    padding: 0.8rem;
+  }
+
+  .img{
+    height: 4rem;
+  }
+
+  .title{
+    font-size: 1.1rem;
+  }
+
+  .inp{
+    width: 9rem;
+    height: 2rem;
+  }
+
+  .icon{
+    margin-top: 6px;
+  }
+}
+
+/* Móviles pequeños (menos de 480px) */
+@media screen and (max-width: 480px) {
+  .header{
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .img{
+    height: 3.5rem;
+  }
+
+  .title{
+    font-size: 1rem;
+    text-shadow: -3px 3px 5px var(--gris-claro);
+  }
+
+  .inp{
+    width: 8rem;
+    height: 1.8rem;
+    font-size: 0.9rem;
+  }
+
+  .icon{
+    width: 0.7rem;
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+}
+
+/* Móviles muy pequeños (menos de 360px) */
+@media screen and (max-width: 360px) {
+  .header{
+    gap: 0.3rem;
+    padding: 0.5rem 0.3rem;
+  }
+
+  .img{
+    height: 3rem;
+  }
+
+  .title{
+    font-size: 0.9rem;
+  }
+
+  .inp{
+    width: 7rem;
+    height: 1.6rem;
+    font-size: 0.85rem;
+    padding-left: 22px;
+  }
+
+  .icon{
+    width: 0.6rem;
+    margin-top: 4px;
+    margin-left: 7px;
+  }
 }

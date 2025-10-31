@@ -9,7 +9,7 @@ function Footer() {
 
                 <ul className='list'>
                     <li className='list-devloopers__title'>
-                       <p>DESARROLLADO POR: </p> 
+                        <p>DESARROLLADO POR: </p> 
                     </li>
                     <li className='list-devloopers '>
                         <p className='name'>

@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './ganadoresBalonDeOro.css';
 import ganadoresData from '../../data/balon-oro.json'
+import { FiBookOpen } from 'react-icons/fi';
+import { BiWorld } from 'react-icons/bi';
+import { IoFootballOutline } from 'react-icons/io5';
 
 function GanadoresBalonDeOro() {
   const [modalAbierto, setModalAbierto] = useState(false);
@@ -9,29 +12,43 @@ function GanadoresBalonDeOro() {
   const abrirModal = (ganador) => {
     setGanadorSeleccionado(ganador);
     setModalAbierto(true);
-    // Prevenir scroll del body
     document.body.style.overflow = 'hidden';
   };
 
   const cerrarModal = () => {
     setModalAbierto(false);
     setGanadorSeleccionado(null);
-    // Restaurar scroll del body
     document.body.style.overflow = 'unset';
   };
 
   // Cerrar modal con tecla ESC
-  React.useEffect(() => {
+  useEffect(() => {
     const handleEsc = (e) => {
-      if (e.key === 'Escape') cerrarModal();
+      if (e.key === 'Escape') {
+        cerrarModal();
+      }
     };
-    window.addEventListener('keydown', handleEsc);
-    return () => window.removeEventListener('keydown', handleEsc);
-  }, []);
+    
+    if (modalAbierto) {
+      window.addEventListener('keydown', handleEsc);
+    }
+    
+    return () => {
+      window.removeEventListener('keydown', handleEsc);
+    };
+  }, [modalAbierto]);
 
   return (
     <div className="ganadores-container">
-      <h1 className="titulo-principal">🏆 Ganadores del Balón de Oro</h1>
+      <div className='container-titulos'>
+        <h1 className="titulo-principal">🏆 Ganadores del Balón de Oro</h1>
+        <p className='texto-principal'> El Balón de Oro es uno de los premios más importantes del fútbol mundial.
+                                      Se entrega cada año al mejor jugador o jugadora del mundo, en reconocimiento
+                                      a su talento, esfuerzo y destacada actuación durante la temporada. 
+                                      Más que un trofeo, representa el sueño y la gloria de quienes viven
+                                      y sienten el fútbol.
+        </p>
+      </div>
       
       {/* GRID DE TARJETAS */}
       <div className="ganadores-grid">
@@ -108,10 +125,20 @@ function GanadoresBalonDeOro() {
                   
                   {/* Información Personal */}
                   <div className="info-block">
-                    <h3 className="info-titulo">📋 Información Personal</h3>
+                    <h3 className="info-titulo"><FiBookOpen /> Información Personal</h3>
                     <div className="info-item">
-                      <span className="info-label">Nombre:</span>
-                      <span className="info-valor">{ganadorSeleccionado.jugador.nombre}</span>
+                      <span className="info-label">Nombre Completo:</span>
+                      <span className="info-valor">{ganadorSeleccionado.jugador.nombreCompleto}</span>
+                    </div>
+                    <div className="info-item">
+                      <span className="info-label">Fecha de Nacimiento:</span>
+                      <span className="info-valor">
+                        {new Date(ganadorSeleccionado.jugador.fechaNacimiento).toLocaleDateString('es-ES', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </span>
                     </div>
                     <div className="info-item">
                       <span className="info-label">Posición:</span>
@@ -121,7 +148,7 @@ function GanadoresBalonDeOro() {
 
                   {/* País */}
                   <div className="info-block">
-                    <h3 className="info-titulo">🌍 País</h3>
+                    <h3 className="info-titulo"><BiWorld /> País</h3>
                     <div className="pais-modal">
                       <img 
                         src={ganadorSeleccionado.pais.bandera}
@@ -134,7 +161,7 @@ function GanadoresBalonDeOro() {
 
                   {/* Club */}
                   <div className="info-block">
-                    <h3 className="info-titulo">⚽ Club</h3>
+                    <h3 className="info-titulo"><IoFootballOutline /> Club</h3>
                     <div className="club-modal">
                       <img 
                         src={ganadorSeleccionado.club.logo}
@@ -143,49 +170,14 @@ function GanadoresBalonDeOro() {
                       />
                       <div>
                         <p className="club-nombre-modal">{ganadorSeleccionado.club.nombre}</p>
-                        <p className="club-pais-modal">{ganadorSeleccionado.club.pais}</p>
+                        <p className="club-pais-modal">{ganadorSeleccionado.club.Pais}</p>
                       </div>
                     </div>
-                  </div>
-
-                  {/* Estadísticas */}
-                  <div className="info-block">
-                    <h3 className="info-titulo">📊 Estadísticas {ganadorSeleccionado.año}</h3>
-                    <div className="estadisticas-grid">
-                      <div className="stat-card">
-                        <span className="stat-icon">⚽</span>
-                        <span className="stat-numero">{ganadorSeleccionado.estadisticas.goles}</span>
-                        <span className="stat-label">Goles</span>
-                      </div>
-                      <div className="stat-card">
-                        <span className="stat-icon">🎯</span>
-                        <span className="stat-numero">{ganadorSeleccionado.estadisticas.asistencias}</span>
-                        <span className="stat-label">Asistencias</span>
-                      </div>
-                      <div className="stat-card">
-                        <span className="stat-icon">👕</span>
-                        <span className="stat-numero">{ganadorSeleccionado.estadisticas.partidosJugados}</span>
-                        <span className="stat-label">Partidos</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Logros */}
-                  <div className="info-block">
-                    <h3 className="info-titulo">🏅 Logros Destacados</h3>
-                    <ul className="logros-lista">
-                      {ganadorSeleccionado.logros.map((logro, index) => (
-                        <li key={index} className="logro-item">
-                          <span className="logro-bullet">✓</span>
-                          {logro}
-                        </li>
-                      ))}
-                    </ul>
                   </div>
 
                 </div>
               </div>
-            </div>
+            </div>  
           </div>
         </div>
       )}
