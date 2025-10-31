@@ -5,7 +5,8 @@ import { FiBookOpen } from 'react-icons/fi';
 import { BiWorld } from 'react-icons/bi';
 import { IoFootballOutline } from 'react-icons/io5';
 
-function GanadoresBalonDeOro() {
+function GanadoresBalonDeOro({ searchTerm }) {
+
   const [modalAbierto, setModalAbierto] = useState(false);
   const [ganadorSeleccionado, setGanadorSeleccionado] = useState(null);
 
@@ -38,6 +39,60 @@ function GanadoresBalonDeOro() {
     };
   }, [modalAbierto]);
 
+  // LÓGICA DE FILTRADO
+  const filtrarGanadores = () => {
+    if (!searchTerm || searchTerm.trim() === '') {
+      return ganadoresData.ganadores;
+    }
+
+    const termino = searchTerm.toLowerCase().trim();
+
+    return ganadoresData.ganadores.filter((ganador) => {
+      // Filtrar por nombre del jugador
+      const nombreCoincide = ganador.jugador.nombre?.toLowerCase().includes(termino);
+      const nombreCompletoCoincide = ganador.jugador.nombreCompleto?.toLowerCase().includes(termino);
+      
+      // Filtrar por año
+      const añoCoincide = ganador.año?.toString().includes(termino);
+      
+      // Filtrar por club
+      const clubCoincide = ganador.club.nombre?.toLowerCase().includes(termino);
+      
+      // Filtrar por país
+      const paisCoincide = ganador.pais.nombre?.toLowerCase().includes(termino);
+      
+      // Filtrar por posición
+      const posicionCoincide = ganador.jugador.posicion?.toLowerCase().includes(termino);
+      
+      // Filtrar por fecha de nacimiento
+      const fechaNacimiento = new Date(ganador.jugador.fechaNacimiento).toLocaleDateString('es-ES', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      });
+      const fechaCoincide = fechaNacimiento.toLowerCase().includes(termino);
+      
+      // También buscar solo por año de nacimiento
+      const añoNacimiento = new Date(ganador.jugador.fechaNacimiento).getFullYear().toString();
+      const añoNacimientoCoincide = añoNacimiento.includes(termino);
+
+      // Retorna true si algún campo coincide
+      return (
+        nombreCoincide ||
+        nombreCompletoCoincide ||
+        añoCoincide ||
+        clubCoincide ||
+        paisCoincide ||
+        posicionCoincide ||
+        fechaCoincide ||
+        añoNacimientoCoincide
+      );
+    });
+  };
+
+  // Obtener los ganadores filtrados
+  const ganadoresFiltrados = filtrarGanadores();
+
   return (
     <div className="ganadores-container">
       <div className='container-titulos'>
@@ -50,9 +105,21 @@ function GanadoresBalonDeOro() {
         </p>
       </div>
       
+      {/* Mensaje si no hay resultados */}
+      {ganadoresFiltrados.length === 0 && (
+        <div style={{
+          textAlign: 'center',
+          padding: '3rem',
+          color: 'var(--gris-claro)',
+          fontSize: '1.2rem'
+        }}>
+          No se encontraron resultados para "{searchTerm}"
+        </div>
+      )}
+
       {/* GRID DE TARJETAS */}
       <div className="ganadores-grid">
-        {ganadoresData.ganadores.map(ganador => (
+        {ganadoresFiltrados.map(ganador => (
           <div 
             key={ganador.id} 
             className="ganador-card"
