@@ -1245,6 +1245,217 @@
         "logo": "../public/imgs/acMilan.png",
         "Pais": "Italia"
       }
+    },
+    {
+      "id": 60,
+      "año": 1965,
+      "jugador": {
+        "nombre": " Eusébio ",
+        "nombreCompleto": " Eusébio da Silva Ferreira",
+        "fechaNacimiento": "1942-01-25",
+        "posicion": "Delantero",
+        "imagen": "../public/imgs/Eusebio-1965.webp"
+      },
+      "pais": {
+        "nombre": "Portugal",
+        "codigo": "PT",
+        "bandera": "../public/imgs/portugal.png"
+      },
+      "club": {
+        "nombre": "Benfica",
+        "logo": "../public/imgs/LOGO-Benfica.png",
+        "Pais": "Portugal"
+      }
+    },
+    {
+      "id": 61,
+      "año": 1964,
+      "jugador": {
+        "nombre": " Denis Law",
+        "nombreCompleto": " Denis Law ",
+        "fechaNacimiento": "1940-02-24",
+        "posicion": "Delantero",
+        "imagen": "../public/imgs/Denis Law-1964.webp"
+      },
+      "pais": {
+        "nombre": "Escocia",
+        "codigo": "SCO",
+        "bandera": "../public/imgs/BANDERA-ESCOCIA.png"
+      },
+      "club": {
+        "nombre": "Manchester United",
+        "logo": "../public/imgs/manchesterCity-logo.png",
+        "Pais": "Inglaterra"
+      }
+    },
+    {
+      "id": 62,
+      "año": 1963,
+      "jugador": {
+        "nombre": " Lev Yashin ",
+        "nombreCompleto": "Lev Ivanovich Yashin",
+        "fechaNacimiento": "1929-10-22",
+        "posicion": "Portero",
+        "imagen": "../public/imgs/Lev Yashin-1963.webp"
+      },
+      "pais": {
+        "nombre": "Unión Soviética",
+        "codigo": "RU",
+        "bandera": "../public/imgs/BANDERA-Unión Soviética.jpeg"
+      },
+      "club": {
+        "nombre": "Dynamo Moscú",
+        "logo": "../public/imgs/LOGO-Dynamo Moscú.png",
+        "Pais": "Unión Soviética"
+      }
+    },
+    {
+      "id": 63,
+      "año": 1962,
+      "jugador": {
+        "nombre": " Josef Masopust",
+        "nombreCompleto": " Josef Masopust",
+        "fechaNacimiento": "1931-02-09",
+        "posicion": "Centrocampista",
+        "imagen": "../public/imgs/Josef Masopust-1962.webp"
+      },
+      "pais": {
+        "nombre": "Checoslovaquia",
+        "codigo": "CZ",
+        "bandera": "../public/imgs/BANDERA-Checoslovaquia.png"
+      },
+      "club": {
+        "nombre": "Dukla Praga",
+        "logo": "../public/imgs/LOGo-Dukla Praga.png",
+        "Pais": "Checoslovaquia"
+      }
+    },
+    {
+      "id": 64,
+      "año": 1961,
+      "jugador": {
+        "nombre": "Omar Sívori ",
+        "nombreCompleto": " Enrique Omar Sívori",
+        "fechaNacimiento": "1935-10-02",
+        "posicion": "Delantero / Extremo",
+        "imagen": "../public/imgs/imagesOmar Sívori-1961.webp"
+      },
+      "pais": {
+        "nombre": "Argentina",
+        "codigo": "AR",
+        "bandera": "../public/imgs/argentina.webp"
+      },
+      "club": {
+        "nombre": "Juventus",
+        "logo": "../public/imgs/juventus.png",
+        "Pais": "Italia"
+      }
+    },
+    {
+      "id": 65,
+      "año": 1960,
+      "jugador": {
+        "nombre": "Luis Suárez",
+        "nombreCompleto": " Luis Suárez Miramontes",
+        "fechaNacimiento": "1935-05-02",
+        "posicion": "Centrocampista ofensivo",
+        "imagen": "../public/imgs/Luis Suárez-1960.webp"
+      },
+      "pais": {
+        "nombre": "España",
+        "codigo": "Es",
+        "bandera": "../public/imgs/españa.png"
+      },
+      "club": {
+        "nombre": "JFC Barcelona",
+        "logo": "../public/imgs/barcelona-logo.png",
+        "Pais": "España"
+      }
+    },
+    {
+      "id": 66,
+      "año": 1959,
+      "jugador": {
+        "nombre": "Alfredo Di Stéfan ",
+        "nombreCompleto": " Alfredo Stéfano Di Stéfano Laulhé",
+        "fechaNacimiento": "1926-07-04",
+        "posicion": "Delantero / Mediocampista",
+        "imagen": "../public/imgs/Alfredo Di Stéfano-1959.webp"
+      },
+      "pais": {
+        "nombre": "España",
+        "codigo": "Es",
+        "bandera": "../public/imgs/españa.png"
+      },
+      "club": {
+        "nombre": "Real Madrid",
+        "logo": "../public/imgs/realMadrid-logo.png",
+        "Pais": "España"
+      }
+    },
+    {
+      "id": 67,
+      "año": 1958,
+      "jugador": {
+        "nombre": "Raymond Kopa",
+        "nombreCompleto": " Raymond Kopaszewski",
+        "fechaNacimiento": "1931-10-13",
+        "posicion": "Delantero / Mediocampista ofensivo",
+        "imagen": "../public/imgs/Raymond Kopa-1958.webp"
+      },
+      "pais": {
+        "nombre": "Francia",
+        "codigo": "FR",
+        "bandera": "../public/imgs/bandera-francia.jpg"
+      },
+      "club": {
+        "nombre": "Real Madrid",
+        "logo": "../public/imgs/realMadrid-logo.png",
+        "Pais": "España"
+      }
+    },
+    {
+      "id": 68,
+      "año": 1957,
+      "jugador": {
+        "nombre": "Alfredo Di Stéfano",
+        "nombreCompleto": " Alfredo Stéfano Di Stéfano Laulhé",
+        "fechaNacimiento": "1926-07-04",
+        "posicion": "Delantero / Mediocampista",
+        "imagen": "../public/imgs/ALFREDO DI STEFANO-1957.webp"
+      },
+      "pais": {
+        "nombre": "España",
+        "codigo": "ES",
+        "bandera": "../public/imgs/españa.png"
+      },
+      "club": {
+        "nombre": "Real Madrid",
+        "logo": "../public/imgs/realMadrid-logo.png",
+        "Pais": "España"
+      }
+    },
+    {
+      "id": 68,
+      "año": 1956,
+      "jugador": {
+        "nombre": "Stanley Matthews ",
+        "nombreCompleto": " Stanley Matthews",
+        "fechaNacimiento": "1915-02-01",
+        "posicion": "Extremo derecho",
+        "imagen": "../public/imgs/Stanley Matthews-1956.webp"
+      },
+      "pais": {
+        "nombre": "Inglaterra",
+        "codigo": "ENG",
+        "bandera": "../public/imgs/inglaterra.svg"
+      },
+      "club": {
+        "nombre": "Blackpool FC",
+        "logo": "../public/imgs/logo-Blackpool FC.png",
+        "Pais": "Inglaterra"
+      }
     }
+
   ]
 }
